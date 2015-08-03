@@ -118,7 +118,7 @@ body {
 
 #introText01, 
 #introText02 {
-	font-family: 'Bangers' Arial, Helvetica, sans-serif;
+	font-family: 'Bangers', Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 2.5em;
 	line-height: 1.2;
