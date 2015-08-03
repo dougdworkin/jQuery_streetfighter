@@ -21,19 +21,22 @@ body {
 
 .ryuStill,
 .ryuReady,
-.ryuThrowing {
+.ryuThrowing,
+.ryuCool {
 	width: 659px;
 	height: 494px;
 }
 
 .ryuReady,
-.ryuThrowing {
+.ryuThrowing,
+.ryuCool,
+#theme
+ {
 	display: none;
 }
 
 .ryuReady {
 	background-image: url('../images/ryu-ready-position.gif');
-	display: none;
 }
 
 .ryuStill {
@@ -43,8 +46,12 @@ body {
 
 .ryuThrowing {
 	background-image: url('../images/ryu-throwing-hadouken.png');
-	display:none;
 }
+
+.ryuCool {
+	background-image: url('../images/ryu-cool.gif');
+}
+
 
 
 .hadouken {
@@ -62,6 +69,108 @@ body {
 .houdouken,
 .ryuStill,
 .ryuReady,
-.ryuThrowing {
+.ryuThrowing,
+.ryuCool {
 	background-repeat: none;
 }
+
+#streetFighter,
+#introText01,
+#introText02,
+#instructions {
+	position: absolute;
+	float: left;
+	display: none;
+}
+
+
+#streetFighter {
+	height: 314px;
+	width: 684px;
+	top:50px;
+	left:480px;
+}
+
+#introText01 {
+	height: 494px;
+	width:400px;
+	border: red 1px;
+	top:50px;
+	left:650px;
+}
+
+#introText02 {
+	height: 494px;
+	width:400px;
+	border: red 1px;
+	top:217px;
+	left:650px;
+}
+
+#instructions {
+	height: 100%;
+	width: 400px;
+	top:50px;
+	left:650px;
+	display: none;
+}
+
+
+#introText01, 
+#introText02 {
+	font-family: 'Bangers' Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 2.5em;
+	line-height: 1.2;
+	letter-spacing: .01em;
+}
+
+#instructions h1 {
+	font-family: 'Bangers' Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+#instructions p {
+	font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+#buttons {
+	float: left;
+	position: absolute;
+	top: 400px;
+	left: 650px;
+}
+
+#buttons p {
+	float: left;
+	padding: 10px 13px;
+	border-radius: 10px;
+	font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+#buttons p.playTheme {
+	background-color: #F6921E;
+	margin-left: 20px;
+}
+
+#buttons p.playTheme:hover {
+	background-color: #b74a29;
+	cursor: pointer;
+}
+
+#buttons p.pauseTheme {
+	background-color: red;
+	margin-left: 20px;
+}
+
+
+#buttons p.pauseTheme:hover {
+	background-color: #841f33;
+	cursor: pointer;
+}
+
+
+
